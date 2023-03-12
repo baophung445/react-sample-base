@@ -27,7 +27,13 @@
     "radix": "error",
     "space-before-blocks": "error",
     "import/prefer-default-export": "off",
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   },
   "overrides": [
     {

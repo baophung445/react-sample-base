@@ -17,6 +17,7 @@ export default function Counter() {
   const [incrementAmount, setIncrementAmount] = useState('2');
 
   const incrementValue = Number(incrementAmount) || 0;
+  console.log('acb');
 
   return (
     <div>
